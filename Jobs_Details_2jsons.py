@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-
+//this is my edit
 
 def data2_collector(inner_url):
     inner_soup = BeautifulSoup(requests.get(inner_url).content, "html.parser")
